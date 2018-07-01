@@ -1,6 +1,6 @@
 class ChangeDatatypeForBirthdate < ActiveRecord::Migration[5.1]
 
-  def change(table_name, column_name, type)
+  def change
     binding.pry
     change_column :table_name, :column_name, :type
 
